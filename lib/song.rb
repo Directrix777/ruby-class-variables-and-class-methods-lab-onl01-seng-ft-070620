@@ -9,7 +9,7 @@ class Song
     self.name = name
     self.artist = artist
     self.genre = genre
-    @@songs += 1
+    @@songs = @@songs + 1
     @@genres << genre
   end
 
