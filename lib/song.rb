@@ -10,7 +10,7 @@ class Song
     self.genre = genre
     @@songs.push(self)
   end
-  
+
   def self.count
     @@songs.count
   end
